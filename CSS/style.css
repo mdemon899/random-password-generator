@@ -1,0 +1,88 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Common Css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #002339;
+    color: #fff;
+}
+
+/* Container Area */
+
+.container {
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+}
+
+.container h2 {
+    font-size: 1.8rem;
+}
+
+.h2_pass {
+    color: #eb4d4b;
+    border-bottom: 2px solid #b45e5d;
+    padding-bottom: 5px;
+}
+
+/* Input Area */
+
+.input_area {
+    width: 90%;
+    margin-top: 38px;
+    background: #fff;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 18px;
+    border-radius: 6px;
+    margin-bottom: 33px;
+}
+
+#input_box {
+    border: 0;
+    outline: 0;
+    width: 100%;
+    font-size: 20px;
+}
+
+.copyBtn i {
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.copyBtn i:hover {
+    color: #eb4d4b;
+    transition: all ease 0.35s;
+}
+
+/* Button Area */
+.button_area button {
+    padding: 13px 15px;
+    background: #ff4757;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 15px;
+}
+
+.button_area button:hover {
+    background: #fc5c65;
+    transition: all ease 0.5s;
+}
+
+.btnIcon i {
+    font-size: 20px;
+}
